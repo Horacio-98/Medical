@@ -3,9 +3,10 @@ public class doctor {
     // Atributos 
     static int id = 0; // Prevalece mas alla de la instanciacion de un objeto
     String name; 
+    String email; 
     String speciality; 
 
-    // Constructor
+    // Constructor --- Datos necesarios
     public doctor(String name,String speciality){
         id++; 
         this.name = name; 
