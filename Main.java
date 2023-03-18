@@ -1,21 +1,22 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
-        //doctor myDoctor_1 = new doctor("Abel Granados", "General");  
-        //doctor myDoctor_2 = new doctor("Jeanett Argumedo", "General"); 
-        patient patient_1 = new patient("Horacio Granados", "granadoshoracio2@gmail.com"); 
+        doctor myDoctor_1 = new doctor("Abel Granados", "General");  
+        doctor myDoctor_2 = new doctor("Jeanett Argumedo", "General"); 
+        //patient patient_1 = new patient("Horacio Granados", "granadoshoracio2@gmail.com"); 
         //patient patient_2 = new patient("Beatriz Granados", "betyga@gmail.com");
 
-        patient_1.setHeight(1.70);
-        patient_1.setWeight(70);
-        patient_1.setPhone("56756864");
-        patient_1.setEmail("Prueba");
-        System.out.println("Altura : " + patient_1.getHeight());
-        System.out.println("Peso : " + patient_1.getWeight());
-        System.out.println("Telefono : " + patient_1.getPhone());
-        System.out.println("Email : " + patient_1.getEmail());
 
+        myDoctor_1.addAvailableAppoinment(new Date(), "9:00 am");
+        myDoctor_1.addAvailableAppoinment(new Date(), "11:00 am");
+        myDoctor_2.addAvailableAppoinment(new Date(), "13:00 pm");
+        myDoctor_2.addAvailableAppoinment(new Date(), "18:00 pm");
 
-        System.out.println("Vamos en el id : " + doctor.id);
+        for (doctor.AvailableAppointment AA : myDoctor_1.getAppointments()) {
+            System.out.println(AA.getDate() + " " + AA.getTime());
+        }
+        
 
         //uiMenu.showMenu(); 
 
