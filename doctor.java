@@ -20,7 +20,7 @@ public class doctor {
 
     // Comportamientos - Methods
     public void showName(){
-        System.out.println(id + "." + " Nombre del medico : " + name);
+        System.out.println("Doctor asignado : " + name);
     }
 
     // Crea citas nuevas usando la clase anidada
@@ -35,6 +35,13 @@ public class doctor {
         return appointments; 
     }
 
+
+    // Regresa la citas disponibles
+    public void regresaAppointments(){
+        for (AvailableAppointment availableAppointment : appointments) {
+            System.out.println(availableAppointment.getDate() + " " + availableAppointment.getTime());
+        } 
+    }
 
 
 

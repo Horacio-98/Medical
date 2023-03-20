@@ -7,15 +7,21 @@ public class Main {
         //patient patient_1 = new patient("Horacio Granados", "granadoshoracio2@gmail.com"); 
         //patient patient_2 = new patient("Beatriz Granados", "betyga@gmail.com");
 
-
         myDoctor_1.addAvailableAppoinment(new Date(), "9:00 am");
         myDoctor_1.addAvailableAppoinment(new Date(), "11:00 am");
         myDoctor_2.addAvailableAppoinment(new Date(), "13:00 pm");
         myDoctor_2.addAvailableAppoinment(new Date(), "18:00 pm");
 
-        for (doctor.AvailableAppointment AA : myDoctor_1.getAppointments()) {
-            System.out.println(AA.getDate() + " " + AA.getTime());
-        }
+        System.out.println(myDoctor_2.getAppointments());
+        
+        myDoctor_2.showName();
+        myDoctor_2.regresaAppointments();
+
+
+
+
+
+
         
 
         //uiMenu.showMenu(); 
