@@ -18,12 +18,6 @@ public class Main {
         myDoctor_2.regresaAppointments();
 
 
-
-
-
-
-        
-
         //uiMenu.showMenu(); 
 
     }

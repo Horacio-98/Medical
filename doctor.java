@@ -1,7 +1,34 @@
 import java.util.ArrayList;
 import java.util.Date;
 
+// Numerations 
+
 public class doctor {
+
+    /* 
+    // ENUMERATIONS - EXAMPLE WITH DAYS OF THE WEEK 
+
+    public enum Day{
+        MONDAY("Lunes"),
+        TUESDAY("Martes"),
+        WEDNESDAY("Miercoles"),
+        THURSDAY("Jueves"),
+        FRIDAY("Viernes"),
+        SATURDAY("Sabado"),
+        SUNDAY("Domingo");  
+
+        private String spanish; 
+
+        private Day(String s){
+            spanish=s; 
+        }
+
+        public String getSpanish(){
+            return spanish; 
+        }
+    }
+    */
+
 
     // Atributos 
     static int id = 0; // Prevalece mas alla de la instanciacion de un objeto
