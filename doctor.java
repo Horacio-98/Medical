@@ -3,52 +3,33 @@ import java.util.Date;
 
 // Numerations 
 
-public class doctor {
+public class doctor extends user {
 
-    /* 
-    // ENUMERATIONS - EXAMPLE WITH DAYS OF THE WEEK 
-
-    public enum Day{
-        MONDAY("Lunes"),
-        TUESDAY("Martes"),
-        WEDNESDAY("Miercoles"),
-        THURSDAY("Jueves"),
-        FRIDAY("Viernes"),
-        SATURDAY("Sabado"),
-        SUNDAY("Domingo");  
-
-        private String spanish; 
-
-        private Day(String s){
-            spanish=s; 
-        }
-
-        public String getSpanish(){
-            return spanish; 
-        }
-    }
-    */
-
-
-    // Atributos 
-    static int id = 0; // Prevalece mas alla de la instanciacion de un objeto
-    private String name; 
-    private String email; 
-    private String speciality; 
-
+    // Atributos - Herencia 
+        String speciality; 
+        
 
     // Constructor --- Datos necesarios
-    public doctor(String name,String speciality){
-        id++; 
-        this.name = name; 
-        this.speciality = name; 
-    }
-
-
-    // Comportamientos - Methods
-    public void showName(){
+    public doctor(String name,String email){
+        super(name, email); 
         System.out.println("Doctor asignado : " + name);
+        this.speciality = speciality; 
     }
+    
+
+    // Getters and Setters
+
+    public String getSpeciality() {
+        return speciality;
+    }
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
+    }
+
+
+
+
 
     // Crea citas nuevas usando la clase anidada
     ArrayList<AvailableAppointment> appointments = new ArrayList<>();
@@ -106,6 +87,12 @@ public class doctor {
         public void setTime(String time) {
             this.time = time;
         }
+
+    
+
+        
+
+        
 
         
     }

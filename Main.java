@@ -12,10 +12,9 @@ public class Main {
         myDoctor_2.addAvailableAppoinment(new Date(), "13:00 pm");
         myDoctor_2.addAvailableAppoinment(new Date(), "18:00 pm");
 
-        System.out.println(myDoctor_2.getAppointments());
-        
-        myDoctor_2.showName();
         myDoctor_2.regresaAppointments();
+
+
 
 
         //uiMenu.showMenu(); 
