@@ -1,15 +1,14 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-// Numerations 
-
+// CLASE HIJA DE USER
 public class doctor extends user {
 
-    // Atributos - Herencia 
-        String speciality; 
+    // Atributos extras
+        private String speciality; 
         
 
-    // Constructor --- Datos necesarios
+    // Constructor incluye la herencia por " SUPER "
     public doctor(String name,String email){
         super(name, email); 
         System.out.println("Doctor asignado : " + name);

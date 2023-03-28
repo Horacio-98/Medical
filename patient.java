@@ -1,3 +1,4 @@
+// CLASE HIJA DE USER
 public class patient extends user{
 
     // Atributos
@@ -9,14 +10,12 @@ public class patient extends user{
 
 
     // Constructor
-
     public patient(String name, String email){
         super(name, email); 
     }
 
 
     // Getters and Setters
-
 
     public String getBirthday() {
         return birthday;
