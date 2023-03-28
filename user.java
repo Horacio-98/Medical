@@ -8,7 +8,7 @@ public class user {
     private String phone; 
 
     public user(String name, String email){
-        this.name = email;
+        this.name = name;
         this.email = email;        
     }
 
@@ -52,6 +52,13 @@ public class user {
         this.phone = phone;
     }
 
+    // METODO SOBREESCRITO EN CLASE PADRE
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "User : " + name + "\n" + "Email : " + email + "\n" +
+                "Adrdress : " + address + "\n" + "Phone : " + phone;
+    }
     
 
     

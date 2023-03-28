@@ -34,7 +34,6 @@ public class patient extends user{
     }
 
 
-
     public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
@@ -49,6 +48,15 @@ public class patient extends user{
 
     public void setBlood(String blood) {
         this.blood = blood;
+    }
+
+
+    // SOBREESCRIBIENDO METODO DE CLASE PADRE USER  + AÑADIMOS OTROS COMPORTAMIENTOS
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString() + "\n" + "Weight : " + getWeight() + "\n" +  "Height : " + getHeight()
+                + "\n" +  "Blood : " + blood ;
     }
 
     
