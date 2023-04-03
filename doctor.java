@@ -26,6 +26,12 @@ public class doctor extends user {
         this.speciality = speciality;
     }
 
+    // Sobreescribiendo metod tostring
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString() + "\nSpeciality : "+speciality + "\nAvailable: " +appointments.toString();
+    }
 
 
 
@@ -86,15 +92,19 @@ public class doctor extends user {
         public void setTime(String time) {
             this.time = time;
         }
-
+        
     
+        // SOBREESCRIBIENDO EL METODO TO STRING
+        @Override
+        public String toString() {
+            return "Available Appontments \nDate: " +date+"\nTime : "+time;
+        }
 
-        
 
-        
 
-        
     }
+
+
 
 
 }

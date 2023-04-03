@@ -3,7 +3,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         //doctor myDoctor_1 = new doctor("Abel Granados", "General");  
-        doctor myDoctor_2 = new doctor("Jeanett Argumedo", "General"); 
+        doctor myDoctor_2 = new doctor("Jeanett Argumedo", "j_argumedo2271@gmail.com"); 
         patient patient_1 = new patient("Horacio Granados", "granadoshoracio2@gmail.com"); 
         //patient patient_2 = new patient("Beatriz Granados", "betyga@gmail.com");
 
@@ -13,8 +13,7 @@ public class Main {
         myDoctor_2.addAvailableAppoinment(new Date(), "18:00 pm");
 
         myDoctor_2.regresaAppointments();
-
-       System.out.println(patient_1.toString());
+        System.out.println(myDoctor_2);
 
         //uiMenu.showMenu(); 
 
