@@ -1,6 +1,6 @@
 // CLASE PADRE
 
-public class user {
+public abstract class user {
     private int id; 
     private String name; 
     private String email; 
