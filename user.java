@@ -59,7 +59,8 @@ public abstract class user {
         return "User : " + name + "\n" + "Email : " + email + "\n" +
                 "Adrdress : " + address + "\n" + "Phone : " + phone;
     }
-    
 
-    
+    public abstract void showDataUser(); 
+
+
 }

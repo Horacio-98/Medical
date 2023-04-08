@@ -100,11 +100,17 @@ public class doctor extends user {
             return "Available Appontments \nDate: " +date+"\nTime : "+time;
         }
 
+    }
 
-
+    @Override
+    public void showDataUser() {
+        // TODO Auto-generated method stub
+        System.out.println("Empleado del Hospital : Cruz Roja");
+        System.out.println("Departamento : Cancerologia");
     }
 
 
+    
 
 
 }
