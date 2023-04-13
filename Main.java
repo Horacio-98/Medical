@@ -11,6 +11,17 @@ public class Main {
         //Map<Integer,String> treemap = new TreeMap<Integer,String>();
         //Map<Integer,String> link = new LinkedHashMap<Integer,String>(); 
         //doctor myDoctor_1 = new doctor("Abel Granados", "General");  
+
+        /* CLASE ANONIMA 
+         * user user_1 = new user("Horacio","Nuevocorreo_anonimo") {
+           @Override
+           public void showDataUser() {
+               System.out.println("Muestra de clase anonima");
+           } 
+        };
+         * 
+         */
+
         doctor myDoctor_2 = new doctor("Jeanett Argumedo", "j_argumedo2271@gmail.com"); 
         patient patient_1 = new patient("Horacio Granados", "granadoshoracio2@gmail.com"); 
         //patient patient_2 = new patient("Beatriz Granados", "betyga@gmail.com");

@@ -102,15 +102,14 @@ public class doctor extends user {
 
     }
 
+
+    // IMPLEMENTACION DE METODO ABSTRACTO DE LA CLASE ABSTRACTA USER
     @Override
     public void showDataUser() {
         // TODO Auto-generated method stub
         System.out.println("Empleado del Hospital : Cruz Roja");
         System.out.println("Departamento : Cancerologia");
     }
-
-
-    
 
 
 }
