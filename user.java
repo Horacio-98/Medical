@@ -60,6 +60,8 @@ public abstract class user {
                 "Adrdress : " + address + "\n" + "Phone : " + phone;
     }
 
+
+    // METODO ABSTRACTO QUE OBLIGATORIAMENTE SE IMPLEMENTA EN LAS CLASES HIJAS  
     public abstract void showDataUser(); 
 
 

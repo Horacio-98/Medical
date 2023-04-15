@@ -42,9 +42,13 @@ public class appointmentdoctor implements IScheduleable {
 
     // IMPLEMENT METHOD SCHEDULE - INTERFACE
     @Override
-    public void schedule(Date date, String time) {
+    public void schedule(Date date, String time) {    
         
     } 
+
+
+
+    
 
 
     
