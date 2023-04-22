@@ -5,8 +5,7 @@ import java.util.Date;
 public class doctor extends user {
 
     // Atributos extras
-        private String speciality; 
-        
+        private String speciality;  
 
     // Constructor incluye la herencia por " SUPER "
     public doctor(String name,String email){

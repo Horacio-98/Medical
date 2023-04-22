@@ -1,13 +1,14 @@
 // CLASE HIJA DE USER
 public class patient extends user{
 
+    public static final int variable = 0; 
+
     // Atributos
 
     private String birthday;
     private double weight; 
     private double height; 
     private String blood; 
-
 
     // Constructor
     public patient(String name, String email){
