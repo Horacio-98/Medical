@@ -23,18 +23,21 @@ public class Main {
          * 
          */
 
+
         doctor myDoctor_2 = new doctor("Jeanett Argumedo", "j_argumedo2271@gmail.com"); 
         patient patient_1 = new patient("Horacio Granados", "granadoshoracio2@gmail.com"); 
         //patient patient_2 = new patient("Beatriz Granados", "betyga@gmail.com");
 
+
+         
         myDoctor_2.addAvailableAppoinment(new Date(), "13:00 pm");
-        myDoctor_2.addAvailableAppoinment(new Date(), "18:00 pm");
+        myDoctor_2.addAvailableAppoinment(new Date(), "18:00 pm"); 
+        myDoctor_2.regresaAppointments();
         // myDoctor_2.regresaAppointments();
-        System.out.println(myDoctor_2);
+        //System.out.println(myDoctor_2);
 
         //uiMenu.showMenu(); 
-        user docUser = new doctor(null, null); 
-        docUser.showDataUser();
+
 
     }
 }

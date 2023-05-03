@@ -2,7 +2,7 @@ import java.util.Date;
 
 public interface IScheduleable {
 
-    // METODO ABSTRACTO  -  QUE NO DEBE IMPLEMENTARSE  
+    // METODO ABSTRACTO  -  OBLIGATORIO IMPLEMENTARLO 
     void schedule(Date date, String time);
 
     // DEFAULT METHODS PROPORCIONA QUE NO SEA OBLIGATORIO IMPLEMENTAR EL METODO

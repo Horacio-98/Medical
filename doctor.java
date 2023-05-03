@@ -10,7 +10,7 @@ public class doctor extends user {
     // Constructor incluye la herencia por " SUPER "
     public doctor(String name,String email){
         super(name, email); 
-        System.out.println("Doctor asignado : " + name);
+        System.out.println("Hola soy su medico, mi nombre es : " + name);
         this.speciality = speciality; 
     }
     
@@ -38,7 +38,7 @@ public class doctor extends user {
     // Crea citas nuevas usando la clase anidada
     ArrayList<AvailableAppointment> appointments = new ArrayList<>();
     public void addAvailableAppoinment(Date date, String time){
-        appointments.add(new AvailableAppointment(date, time)); 
+        appointments.add(new AvailableAppointment(date,time)); 
     }
 
 
